@@ -1,24 +1,125 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Miami's Pet Grooming | Professional Mobile & In-Store Pet Grooming Since '98</title>
+    <meta name="title" content="Miami's Pet Grooming | Professional Mobile & In-Store Pet Grooming Since '98" />
+    <meta name="description" content="South Florida's trusted pet grooming experts for 25+ years. Professional mobile grooming services and 2 Miami locations. Dog grooming, cat grooming, and non-anesthetic dental care. Book today!" />
+    <meta name="keywords" content="pet grooming Miami, mobile pet grooming, dog grooming, cat grooming, pet dental care, South Florida pet grooming, Miami pet spa" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Miami's Pet Grooming" />
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:url" content="https://miamispetgrooming.com/" />
+    <meta property="og:title" content="Miami's Pet Grooming | Professional Mobile & In-Store Pet Grooming" />
+    <meta property="og:description" content="South Florida's trusted pet grooming experts for 25+ years. Mobile grooming & 2 Miami locations. Book today!" />
+    <meta property="og:image" content="/og-image.jpg" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://miamispetgrooming.com/" />
+    <meta property="twitter:title" content="Miami's Pet Grooming | Professional Mobile & In-Store Pet Grooming" />
+    <meta property="twitter:description" content="South Florida's trusted pet grooming experts for 25+ years. Mobile grooming & 2 Miami locations. Book today!" />
+    <meta property="twitter:image" content="/og-image.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://miamispetgrooming.com/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Miami's Pet Grooming",
+      "image": "https://miamispetgrooming.com/og-image.jpg",
+      "@id": "https://miamispetgrooming.com",
+      "url": "https://miamispetgrooming.com",
+      "telephone": "(786) 222-0592",
+      "email": "info@miamispetgrooming.com",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "15816 SW 137th Avenue",
+          "addressLocality": "Miami",
+          "addressRegion": "FL",
+          "postalCode": "33177",
+          "addressCountry": "US"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "9805 SW 40th St",
+          "addressLocality": "Miami",
+          "addressRegion": "FL",
+          "postalCode": "33165",
+          "addressCountry": "US"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "08:00",
+          "closes": "19:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "500"
+      },
+      "sameAs": [
+        "https://facebook.com/miamispetgrooming",
+        "https://instagram.com/miamispetgrooming"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Pet Grooming Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dog Grooming"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cat Grooming"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mobile Pet Grooming"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Non-Anesthetic Dental Care"
+            }
+          }
+        ]
+      }
+    }
+    </script>
   </head>
-
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
